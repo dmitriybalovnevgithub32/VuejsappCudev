@@ -27,6 +27,7 @@
 import logo3 from '../assets/logo2.svg';
 
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Section4",
   props: {
     msg: String

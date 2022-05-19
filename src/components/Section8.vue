@@ -32,6 +32,7 @@
 import icon from '../assets/icons/icon.svg';
 
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: 'Section1',
   props: {
     msg: String

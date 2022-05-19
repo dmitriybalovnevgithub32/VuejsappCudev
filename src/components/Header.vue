@@ -1,17 +1,19 @@
 <template>
-  <div class="header">
-    <div class="logo">
+  <header>
+    <a href="/" class="logo">
       <img src="logo1" alt="toplogo">
+    </a>
+    <ul>
+      <li><a href="">How it works</a></li>
+      <li><a href="">Why choose us</a></li>
+      <li><a href="">FAQs</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    <div class="btns">
+      <a href="#" class="btn_light">Sign In</a>
+      <a href="#" class="btn_green"> Join The Movement</a>
     </div>
-    <div class="navigation">
-      <ul>
-        <li><a href="">How it works</a></li>
-        <li><a href="">Why choose us</a></li>
-        <li><a href="">FAQs</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -36,9 +38,9 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  align-content: center;
+  align-content: space-between;
   background: #252851;
   height: 104px;
 }

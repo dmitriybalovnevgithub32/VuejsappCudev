@@ -32,7 +32,7 @@
         <a class="dot"></a>
         <a class="dot"></a>
         <a class="dot"></a>
-        <a class="dot"></a>
+        <a class="dot" v-if="con"></a>
       </span>
     </div>
   </div>
@@ -41,7 +41,8 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: "Section5"
+  name: "Section5",
+   connect(){ },
 }
 </script>
 
@@ -77,5 +78,4 @@ export default {
   height: 12px;
   background: rgba(18, 111, 184, 0.1);
 }
-
 </style>
